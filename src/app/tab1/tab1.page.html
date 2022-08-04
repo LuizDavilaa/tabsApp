@@ -1,17 +1,46 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-title class="title"
+      >Lençóis Paulista
+      <ion-icon name="sunny-outline"></ion-icon>
+      33ºC
+    </ion-card-title>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>05/08</ion-label>
+          <ion-label>
+            <ion-chip color="secondary"
+              >18º/30º</ion-chip
+            ></ion-label
+          >
+          <ion-icon slot="end" name="sunny-outline"></ion-icon>
+          Ensolarado
+        </ion-item>
+        <ion-item>
+          <ion-label>06/08</ion-label>
+          <ion-label>
+            <ion-chip color="secondary"
+              >15º/29º</ion-chip
+            ></ion-label
+          >
+          <ion-icon slot="end" name="sunny-outline"></ion-icon>
+          Ensolarado
+        </ion-item>
+        <ion-item>
+          <ion-label>07/08</ion-label>
+          <ion-label> <ion-chip color="secondary" >14º/26º</ion-chip></ion-label>
+          <ion-icon slot="end" name="sunny-outline"></ion-icon>
+          Ensolarado
+        </ion-item>
+        <ion-item>
+          <ion-label>08/08</ion-label>
+          <ion-label> <ion-chip color="secondary">15º/24º</ion-chip></ion-label>
+          <ion-icon slot="end" name="sunny-outline"></ion-icon>
+          Ensolarado
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
